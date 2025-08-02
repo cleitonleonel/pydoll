@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="zh" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -8,26 +8,26 @@
       
       
       
-        <link rel="canonical" href="https://autoscrape-labs.github.io/pydoll/index.html">
+        <link rel="canonical" href="https://autoscrape-labs.github.io/pydoll/zh/index.html">
       
       
       
         <link rel="next" href="features.html">
       
       
-      <link rel="icon" href="images/favicon.png">
+      <link rel="icon" href="../images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>Pydoll - Async Web Automation Library</title>
+        <title>Pydoll - Pydoll - 异步网页自动化库</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,13 +46,15 @@
       
     
     
-      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="stylesheets/termynal.css">
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/termynal.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -78,8 +80,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-pydoll" class="md-skip">
-          Skip to content
+        <a href="#pydoll" class="md-skip">
+          跳转至
         </a>
       
     </div>
@@ -93,8 +95,8 @@
   
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="index.html" title="Pydoll - Async Web Automation Library" class="md-header__button md-logo" aria-label="Pydoll - Async Web Automation Library" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="index.html" title="Pydoll - 异步网页自动化库" class="md-header__button md-logo" aria-label="Pydoll - 异步网页自动化库" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15H6l7-14v8h5l-7 14z"/></svg>
@@ -108,7 +110,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Pydoll - Async Web Automation Library
+            Pydoll - 异步网页自动化库
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -154,20 +156,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
+    <button class="md-header__button md-icon" aria-label="选择当前语言">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="index.html" hreflang="en" class="md-select__link">
+            <a href="../index.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="zh/index.html" hreflang="zh" class="md-select__link">
+            <a href="index.html" hreflang="zh" class="md-select__link">
               中文
             </a>
           </li>
@@ -188,16 +190,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="查找">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -210,7 +212,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            正在初始化搜索引擎
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -222,7 +224,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/autoscrape-labs/pydoll" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/autoscrape-labs/pydoll" title="前往仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -237,7 +239,7 @@
   
     
       
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
       
@@ -274,7 +276,7 @@
   
     
   
-  Features
+  特性
 
       </a>
     </li>
@@ -295,7 +297,7 @@
   
     
   
-  Deep Dive
+  深入了解
 
         </a>
       </li>
@@ -317,7 +319,7 @@
   
     
   
-  API Reference
+  API 参考
 
         </a>
       </li>
@@ -351,19 +353,19 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="Pydoll - Async Web Automation Library" class="md-nav__button md-logo" aria-label="Pydoll - Async Web Automation Library" data-md-component="logo">
+    <a href="index.html" title="Pydoll - 异步网页自动化库" class="md-nav__button md-logo" aria-label="Pydoll - 异步网页自动化库" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15H6l7-14v8h5l-7 14z"/></svg>
 
     </a>
-    Pydoll - Async Web Automation Library
+    Pydoll - 异步网页自动化库
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/autoscrape-labs/pydoll" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/autoscrape-labs/pydoll" title="前往仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -419,7 +421,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目录">
   
   
   
@@ -428,69 +430,69 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      目录
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-pydoll" class="md-nav__link">
+  <a href="#pydoll_1" class="md-nav__link">
     <span class="md-ellipsis">
-      What is Pydoll?
+      什么是Pydoll?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation
+      安装
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-choose-pydoll" class="md-nav__link">
+  <a href="#pydoll_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Why Choose Pydoll?
+      为何选择Pydoll?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-start-guide-a-simple-example" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Start Guide: A simple example
+      简单的例子上手
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#extended-example-custom-browser-configuration" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      Extended Example: Custom Browser Configuration
+      补充例子: 自定义浏览器配置
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#minimal-dependencies" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Minimal Dependencies
+      极简依赖
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Minimal Dependencies">
+    <nav class="md-nav" aria-label="极简依赖">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#core-dependencies" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
-      Core Dependencies
+      核心依赖
     </span>
   </a>
   
@@ -502,9 +504,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#license" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
-      License
+      许可证
     </span>
   </a>
   
@@ -530,7 +532,7 @@
   
   
   <span class="md-ellipsis">
-    Features
+    特性
     
   </span>
   
@@ -593,7 +595,7 @@
   
   
   <span class="md-ellipsis">
-    Deep Dive
+    深入了解
     
   </span>
   
@@ -610,7 +612,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Deep Dive
+            深入了解
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -628,7 +630,7 @@
   
   
   <span class="md-ellipsis">
-    Chrome DevTools Protocol
+    Chrome DevTools 协议
     
   </span>
   
@@ -651,7 +653,7 @@
   
   
   <span class="md-ellipsis">
-    The Connection Layer
+    连接层
     
   </span>
   
@@ -674,7 +676,7 @@
   
   
   <span class="md-ellipsis">
-    The Browser Domain
+    浏览器域
     
   </span>
   
@@ -697,7 +699,7 @@
   
   
   <span class="md-ellipsis">
-    The Tab Domain
+    标签页域
     
   </span>
   
@@ -720,7 +722,7 @@
   
   
   <span class="md-ellipsis">
-    The Find Elements Mixin
+    查找元素混合器
     
   </span>
   
@@ -743,7 +745,7 @@
   
   
   <span class="md-ellipsis">
-    The WebElement Domain
+    Web元素域
     
   </span>
   
@@ -766,7 +768,7 @@
   
   
   <span class="md-ellipsis">
-    The Event System
+    事件系统
     
   </span>
   
@@ -789,7 +791,7 @@
   
   
   <span class="md-ellipsis">
-    Network Capabilities
+    网络功能
     
   </span>
   
@@ -856,7 +858,7 @@
   
   
   <span class="md-ellipsis">
-    API Reference
+    API 参考
     
   </span>
   
@@ -873,7 +875,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            API Reference
+            API 参考
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -921,7 +923,7 @@
   
   
   <span class="md-ellipsis">
-    Browser
+    浏览器
     
   </span>
   
@@ -932,7 +934,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
-            Browser
+            浏览器
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -994,7 +996,7 @@
   
   
   <span class="md-ellipsis">
-    Options
+    选项
     
   </span>
   
@@ -1017,7 +1019,7 @@
   
   
   <span class="md-ellipsis">
-    Tab
+    标签页
     
   </span>
   
@@ -1040,7 +1042,7 @@
   
   
   <span class="md-ellipsis">
-    Managers
+    管理器
     
   </span>
   
@@ -1095,7 +1097,7 @@
   
   
   <span class="md-ellipsis">
-    Elements
+    元素
     
   </span>
   
@@ -1106,7 +1108,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
-            Elements
+            元素
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1122,7 +1124,7 @@
   
   
   <span class="md-ellipsis">
-    WebElement
+    Web元素
     
   </span>
   
@@ -1145,7 +1147,7 @@
   
   
   <span class="md-ellipsis">
-    Mixins
+    混合器
     
   </span>
   
@@ -1200,7 +1202,7 @@
   
   
   <span class="md-ellipsis">
-    Connection
+    连接
     
   </span>
   
@@ -1211,7 +1213,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_4">
             <span class="md-nav__icon md-icon"></span>
-            Connection
+            连接
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1227,7 +1229,7 @@
   
   
   <span class="md-ellipsis">
-    Connection Handler
+    连接处理器
     
   </span>
   
@@ -1250,7 +1252,7 @@
   
   
   <span class="md-ellipsis">
-    Managers
+    管理器
     
   </span>
   
@@ -1324,7 +1326,7 @@
   
   
   <span class="md-ellipsis">
-    Commands
+    命令
     
   </span>
   
@@ -1341,7 +1343,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_5">
             <span class="md-nav__icon md-icon"></span>
-            Commands
+            命令
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1359,7 +1361,7 @@
   
   
   <span class="md-ellipsis">
-    Browser
+    浏览器
     
   </span>
   
@@ -1405,7 +1407,7 @@
   
   
   <span class="md-ellipsis">
-    Input
+    输入
     
   </span>
   
@@ -1428,7 +1430,7 @@
   
   
   <span class="md-ellipsis">
-    Network
+    网络
     
   </span>
   
@@ -1451,7 +1453,7 @@
   
   
   <span class="md-ellipsis">
-    Page
+    页面
     
   </span>
   
@@ -1474,7 +1476,7 @@
   
   
   <span class="md-ellipsis">
-    Runtime
+    运行时
     
   </span>
   
@@ -1497,7 +1499,7 @@
   
   
   <span class="md-ellipsis">
-    Storage
+    存储
     
   </span>
   
@@ -1520,7 +1522,7 @@
   
   
   <span class="md-ellipsis">
-    Target
+    目标
     
   </span>
   
@@ -1543,7 +1545,7 @@
   
   
   <span class="md-ellipsis">
-    Fetch
+    获取
     
   </span>
   
@@ -1598,7 +1600,7 @@
   
   
   <span class="md-ellipsis">
-    Protocol
+    协议
     
   </span>
   
@@ -1609,7 +1611,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_6">
             <span class="md-nav__icon md-icon"></span>
-            Protocol
+            协议
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1625,7 +1627,7 @@
   
   
   <span class="md-ellipsis">
-    Commands
+    命令
     
   </span>
   
@@ -1648,7 +1650,7 @@
   
   
   <span class="md-ellipsis">
-    Events
+    事件
     
   </span>
   
@@ -1705,7 +1707,7 @@
   
   
   <span class="md-ellipsis">
-    Core
+    核心
     
   </span>
   
@@ -1716,7 +1718,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_7">
             <span class="md-nav__icon md-icon"></span>
-            Core
+            核心
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1732,7 +1734,7 @@
   
   
   <span class="md-ellipsis">
-    Constants
+    常量
     
   </span>
   
@@ -1755,7 +1757,7 @@
   
   
   <span class="md-ellipsis">
-    Exceptions
+    异常
     
   </span>
   
@@ -1778,7 +1780,7 @@
   
   
   <span class="md-ellipsis">
-    Utils
+    工具
     
   </span>
   
@@ -1817,7 +1819,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目录">
   
   
   
@@ -1826,69 +1828,69 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      目录
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-pydoll" class="md-nav__link">
+  <a href="#pydoll_1" class="md-nav__link">
     <span class="md-ellipsis">
-      What is Pydoll?
+      什么是Pydoll?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation
+      安装
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-choose-pydoll" class="md-nav__link">
+  <a href="#pydoll_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Why Choose Pydoll?
+      为何选择Pydoll?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-start-guide-a-simple-example" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Start Guide: A simple example
+      简单的例子上手
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#extended-example-custom-browser-configuration" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      Extended Example: Custom Browser Configuration
+      补充例子: 自定义浏览器配置
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#minimal-dependencies" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Minimal Dependencies
+      极简依赖
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Minimal Dependencies">
+    <nav class="md-nav" aria-label="极简依赖">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#core-dependencies" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
-      Core Dependencies
+      核心依赖
     </span>
   </a>
   
@@ -1900,9 +1902,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#license" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
-      License
+      许可证
     </span>
   </a>
   
@@ -1941,13 +1943,13 @@
     <img src="https://github.com/thalissonvs/pydoll/actions/workflows/mypy.yml/badge.svg" alt="MyPy CI">
 </p>
 
-<h1 id="welcome-to-pydoll">Welcome to Pydoll</h1>
-<p>Hey there! Thanks for checking out Pydoll, the next generation of browser automation for Python. If you're tired of wrestling with webdrivers and looking for a smoother, more reliable way to automate browsers, you're in the right place.</p>
-<h2 id="what-is-pydoll">What is Pydoll?</h2>
-<p>Pydoll is revolutionizing browser automation by <strong>eliminating the need for webdrivers</strong> completely! Unlike other solutions that rely on external dependencies, Pydoll connects directly to browsers using their DevTools Protocol, providing a seamless and reliable automation experience with native asynchronous performance.</p>
-<p>Whether you're scraping data, testing web applications, or automating repetitive tasks, Pydoll makes it surprisingly easy with its intuitive API and powerful features.</p>
-<h2 id="installation">Installation</h2>
-<p>Create and activate a <a href="https://docs.python.org/3/tutorial/venv.html">virtual environment</a> first, then install Pydoll:</p>
+<h1 id="pydoll">欢迎使用Pydoll</h1>
+<p>欢迎来到 Pydoll 的世界～这是为 Python 量身打造的新一代浏览器自动化神器！</p>
+<h2 id="pydoll_1">什么是Pydoll?</h2>
+<p>Pydoll采用全新的浏览器自动化技术——完全无需 WebDriver！与其他依赖外部驱动的解决方案不同，Pydoll 通过浏览器原生 DevTools 协议直接通信，提供零依赖的自动化体验，并自带原生异步高性能支持。</p>
+<p>无论是数据采集、Web应用测试，还是自动化重复任务，Pydoll 都能通过其直观的 API 和强大功能，让这些工作变得异常简单。  </p>
+<h2 id="_1">安装</h2>
+<p>创建并激活一个 <a href="https://docs.python.org/3/tutorial/venv.html">虚拟环境</a>，然后安装Pydoll:</p>
 <div class="termy">
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>pydoll-python
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
@@ -1955,24 +1957,24 @@
 </span></code></pre></div>
 </div>
 
-<p>For the latest development version, you can install directly from GitHub:</p>
+<p>你可以直接在GitHub上找到最新的开发版本:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>git+https://github.com/autoscrape-labs/pydoll.git
 </span></code></pre></div>
-<h2 id="why-choose-pydoll">Why Choose Pydoll?</h2>
+<h2 id="pydoll_2">为何选择Pydoll?</h2>
 <ul>
-<li><strong>Genuine Simplicity</strong>: We don't want you wasting time configuring drivers or dealing with compatibility issues. With Pydoll, you install and you're ready to automate.</li>
-<li><strong>Truly Human Interactions</strong>: Our algorithms simulate real human behavior patterns - from timing between clicks to how the mouse moves across the screen.</li>
-<li><strong>Native Async Performance</strong>: Built from the ground up with <code>asyncio</code>, Pydoll doesn't just support asynchronous operations - it was designed for them.</li>
-<li><strong>Integrated Intelligence</strong>: Automatic bypass of Cloudflare Turnstile and reCAPTCHA v3 captchas, without external services or complex configurations.</li>
-<li><strong>Powerful Network Monitoring</strong>: Intercept, modify, and analyze all network traffic with ease, giving you complete control over requests.</li>
-<li><strong>Event-Driven Architecture</strong>: React to page events, network requests, and user interactions in real-time.</li>
-<li><strong>Intuitive Element Finding</strong>: Modern <code>find()</code> and <code>query()</code> methods that make sense and work as you'd expect.</li>
-<li><strong>Robust Type Safety</strong>: Comprehensive type system for better IDE support and error prevention.</li>
+<li><strong>智能验证码绕过</strong>: 内置Cloudflare Turnstile与reCAPTCHA v3验证码的自动破解能力，无需依赖外部服务、API密钥或复杂配置。即使遭遇防护系统，您的自动化流程仍可畅行无阻。</li>
+<li><strong>模拟真人交互</strong>: 通过先进算法模拟真实人类行为特征——通过随机操作间隔，到鼠标移动轨迹、页面滚动模式乃至输入速度，皆可骗过最严苛的反爬虫系统。</li>
+<li><strong>极简哲学</strong>: 无需浪费太多时间在配置驱动或解决兼容问题上。Pydoll开箱即用。</li>
+<li><strong>原生异步性能</strong>: 基于<code>asyncio</code>库深度设计, Pydoll不仅支持异步操作——更为高并发而生，可同时进行多个受防护站点的数据采集。</li>
+<li><strong>强大的网络监控</strong>: 轻松实现请求拦截、流量篡改与响应分析，完整掌控网络通信链路，轻松突破层层防护体系。</li>
+<li><strong>事件驱动架构</strong>: 实时响应页面事件、网络请求与用户交互，构建能动态适应防护系统的智能自动化流。</li>
+<li><strong>直观的元素定位</strong>: 使用符合人类直觉的定位方法 <code>find()</code> 和 <code>query()</code> ，面对动态加载的防护内容，定位依然精准。</li>
+<li><strong>强类型安全</strong>: 完备的类型系统为复杂自动化场景提供更优IDE支持和更好地预防运行时报错。</li>
 </ul>
-<p>Ready to dive in? The following pages will guide you through installation, basic usage, and advanced features to help you get the most out of Pydoll.</p>
-<p>Let's start automating the web, the right way! 🚀</p>
-<h2 id="quick-start-guide-a-simple-example">Quick Start Guide: A simple example</h2>
-<p>Let's start with a practical example. The following script will open the Pydoll GitHub repository and star it:</p>
+<p>准备好开始了吗？以下内容将带您从安装配置、基础使用到高级功能，全面掌握 Pydoll 的最佳实践。</p>
+<p>让我们以最优雅的方式，开启您的网页自动化之旅！🚀</p>
+<h2 id="_2">简单的例子上手</h2>
+<p>让我们从一个实际案例开始。以下脚本将打开 Pydoll 的 GitHub 仓库并star：  </p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">asyncio</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pydoll.browser.chromium</span><span class="w"> </span><span class="kn">import</span> <span class="n">Chrome</span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
@@ -1995,10 +1997,10 @@
 </span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>
 </span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="n">asyncio</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">main</span><span class="p">())</span>
 </span></code></pre></div>
-<p>This example demonstrates how to navigate to a website, wait for an element to appear, and interact with it. You can adapt this pattern to automate many different web tasks.</p>
+<p>此示例演示了如何导航到网站、等待元素出现并与之交互。您可以使用这样的模式来自动执行许多不同的 Web 任务。</p>
 <details class="note">
-<summary>Or use without context manager...</summary>
-<p>If you prefer not to use the context manager pattern, you can manually manage the browser instance:</p>
+<summary>或者使用不带上下文管理器的...</summary>
+<p>如果你不想要使用上下文管理器模式，你可以手动管理浏览器实例：</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">asyncio</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pydoll.browser.chromium</span><span class="w"> </span><span class="kn">import</span> <span class="n">Chrome</span>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
@@ -2024,15 +2026,15 @@
 </span></code></pre></div>
 <p>Note that when not using the context manager, you'll need to explicitly call <code>browser.stop()</code> to release resources.</p>
 </details>
-<h2 id="extended-example-custom-browser-configuration">Extended Example: Custom Browser Configuration</h2>
-<p>For more advanced usage scenarios, Pydoll allows you to customize your browser configuration using the <code>ChromiumOptions</code> class. This is useful when you need to:</p>
+<h2 id="_3">补充例子: 自定义浏览器配置</h2>
+<p>对于更高级的使用场景，Pydoll 允许您使用 <code>ChromiumOptions</code> 类自定义浏览器配置。此功能在您需要执行以下操作时非常有用：</p>
 <ul>
-<li>Run in headless mode (no visible browser window)</li>
-<li>Specify a custom browser executable path</li>
-<li>Configure proxies, user agents, or other browser settings</li>
-<li>Set window dimensions or startup arguments</li>
+<li>在无头模式下运行（无可见浏览器窗口）</li>
+<li>指定自定义浏览器可执行文件路径</li>
+<li>配置代理、用户代理或其他浏览器设置</li>
+<li>设置窗口尺寸或启动参数</li>
 </ul>
-<p>Here's an example showing how to use custom options for Chrome:</p>
+<p>以下示例展示了如何使用 Chrome 的自定义选项：</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">asyncio</span>
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
 </span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pydoll.browser.chromium</span><span class="w"> </span><span class="kn">import</span> <span class="n">Chrome</span>
@@ -2076,70 +2078,83 @@
 </span><span id="__span-4-41"><a id="__codelineno-4-41" name="__codelineno-4-41" href="#__codelineno-4-41"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
 </span><span id="__span-4-42"><a id="__codelineno-4-42" name="__codelineno-4-42" href="#__codelineno-4-42"></a>    <span class="n">asyncio</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">main</span><span class="p">())</span>
 </span></code></pre></div>
-<p>This extended example demonstrates:</p>
+<p>此扩展示例演示了：</p>
 <ol>
-<li>Creating and configuring browser options</li>
-<li>Setting a custom Chrome binary path</li>
-<li>Enabling headless mode for invisible operation</li>
-<li>Setting additional browser flags</li>
-<li>Taking screenshots (especially useful in headless mode)</li>
+<li>创建和配置浏览器选项</li>
+<li>设置自定义Chrome可执行程序路径</li>
+<li>启用无头模式以实现无痕操作</li>
+<li>设置其他浏览器命令行flags</li>
+<li>屏幕截图（在无头模式下尤其有用）</li>
 </ol>
 <details class="info">
-<summary>About Chromium Options</summary>
-<p>The <code>options.add_argument()</code> method allows you to pass any Chromium command-line argument to customize browser behavior. There are hundreds of available options to control everything from networking to rendering behavior.</p>
-<p>Common Chrome Options</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># Performance &amp; Behavior Options</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--headless=new&#39;</span><span class="p">)</span>         <span class="c1"># Run Chrome in headless mode</span>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--disable-gpu&#39;</span><span class="p">)</span>          <span class="c1"># Disable GPU hardware acceleration</span>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--no-sandbox&#39;</span><span class="p">)</span>           <span class="c1"># Disable sandbox (use with caution)</span>
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--disable-dev-shm-usage&#39;</span><span class="p">)</span> <span class="c1"># Overcome limited resource issues</span>
+<summary>关于Chrome配置选项</summary>
+<p>The <code>options.add_argument()</code> 方法允许您传递任何 Chromium 命令行参数来自定义浏览器行为。有数百个可用选项可用于控制从网络到渲染行为的所有内容。</p>
+<p>常用Chrome配置选项</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># 性能与行为选项</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--headless=new&#39;</span><span class="p">)</span>         <span class="c1"># 以无头模式运行Chrome</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--disable-gpu&#39;</span><span class="p">)</span>          <span class="c1"># 禁用GPU加速</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--no-sandbox&#39;</span><span class="p">)</span>           <span class="c1"># 禁用沙盒模式（需谨慎使用）</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--disable-dev-shm-usage&#39;</span><span class="p">)</span> <span class="c1"># 解决资源限制问题</span>
 </span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
-</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="c1"># Appearance Options</span>
-</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--start-maximized&#39;</span><span class="p">)</span>      <span class="c1"># Start with maximized window</span>
-</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--window-size=1920,1080&#39;</span><span class="p">)</span> <span class="c1"># Set specific window size</span>
-</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--hide-scrollbars&#39;</span><span class="p">)</span>      <span class="c1"># Hide scrollbars</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="c1"># 界面显示选项</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--start-maximized&#39;</span><span class="p">)</span>      <span class="c1"># 以最大化窗口启动</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--window-size=1920,1080&#39;</span><span class="p">)</span> <span class="c1"># 设置特定窗口尺寸</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--hide-scrollbars&#39;</span><span class="p">)</span>      <span class="c1"># 隐藏滚动条</span>
 </span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>
-</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="c1"># Network Options</span>
-</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--proxy-server=socks5://127.0.0.1:9050&#39;</span><span class="p">)</span> <span class="c1"># Use proxy</span>
-</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--disable-extensions&#39;</span><span class="p">)</span>   <span class="c1"># Disable extensions</span>
-</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--disable-notifications&#39;</span><span class="p">)</span> <span class="c1"># Disable notifications</span>
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="c1"># 网络选项</span>
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--proxy-server=socks5://127.0.0.1:9050&#39;</span><span class="p">)</span> <span class="c1"># 使用代理服务器</span>
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--disable-extensions&#39;</span><span class="p">)</span>   <span class="c1"># 禁用扩展程序</span>
+</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--disable-notifications&#39;</span><span class="p">)</span> <span class="c1"># 禁用通知</span>
 </span><span id="__span-5-16"><a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a>
-</span><span id="__span-5-17"><a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a><span class="c1"># Privacy &amp; Security</span>
-</span><span id="__span-5-18"><a id="__codelineno-5-18" name="__codelineno-5-18" href="#__codelineno-5-18"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--incognito&#39;</span><span class="p">)</span>            <span class="c1"># Run in incognito mode</span>
-</span><span id="__span-5-19"><a id="__codelineno-5-19" name="__codelineno-5-19" href="#__codelineno-5-19"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--disable-infobars&#39;</span><span class="p">)</span>     <span class="c1"># Disable infobars</span>
+</span><span id="__span-5-17"><a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a><span class="c1"># 隐私与安全</span>
+</span><span id="__span-5-18"><a id="__codelineno-5-18" name="__codelineno-5-18" href="#__codelineno-5-18"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--incognito&#39;</span><span class="p">)</span>            <span class="c1"># 以隐身模式运行</span>
+</span><span id="__span-5-19"><a id="__codelineno-5-19" name="__codelineno-5-19" href="#__codelineno-5-19"></a><span class="n">options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--disable-infobars&#39;</span><span class="p">)</span>     <span class="c1"># 禁用信息栏</span>
 </span></code></pre></div>
-<p>Complete Reference Guides</p>
-<p>For a comprehensive list of all available Chrome command-line arguments, refer to these resources:</p>
+<p>完整参考指南</p>
+<p>如需获取所有可用的Chrome命令行参数完整列表，请参考以下资源：</p>
 <ul>
 <li><a href="https://peter.sh/experiments/chromium-command-line-switches/">Chromium Command Line Switches</a> - Complete reference list</li>
 <li><a href="chrome://flags">Chrome Flags</a> - Enter this in your Chrome browser address bar to see experimental features</li>
 <li><a href="https://source.chromium.org/chromium/chromium/src/+/main:chrome/common/chrome_switches.cc">Chromium Source Code Flags</a> - Direct source code reference</li>
 </ul>
-<p>Remember that some options may behave differently across Chrome versions, so it's a good practice to test your configuration when upgrading Chrome.</p>
+<p>请注意某些选项在不同Chrome版本中可能有差异表现，建议在升级Chrome时测试您的配置。</p>
 </details>
-<p>With these configurations, you can run Pydoll in various environments, including CI/CD pipelines, servers without displays, or Docker containers.</p>
-<p>Continue reading the documentation to explore Pydoll's powerful features for handling captchas, working with multiple tabs, interacting with elements, and more.</p>
-<h2 id="minimal-dependencies">Minimal Dependencies</h2>
-<p>One of Pydoll's advantages is its lightweight footprint. Unlike other browser automation tools that require numerous dependencies, Pydoll is intentionally designed to be minimalist while maintaining powerful capabilities.</p>
-<h3 id="core-dependencies">Core Dependencies</h3>
-<p>Pydoll relies on just a few carefully selected packages:</p>
+<p>通过这些配置，您可以在各种环境中运行 Pydoll，包括 CI/CD 流水线、无显示器的服务器或 Docker 容器。</p>
+<p>继续阅读文档，探索 Pydoll 在处理验证码、处理多个标签页、与元素交互等方面的强大功能。</p>
+<h2 id="_4">极简依赖</h2>
+<p>Pydoll 的优势之一是其轻量级的占用空间。与其他需要大量依赖项的浏览器自动化工具不同，Pydoll 在保留了强大的功能的同时力求精简。  </p>
+<h3 id="_5">核心依赖</h3>
+<p>Pydoll仅依赖少量的核心库：  </p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>python = &quot;^3.10&quot;
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>websockets = &quot;^13.1&quot;
 </span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>aiohttp = &quot;^3.9.5&quot;
 </span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>aiofiles = &quot;^23.2.1&quot;
 </span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>bs4 = &quot;^0.0.2&quot;
 </span></code></pre></div>
-<p>That's it! This minimal dependency approach means:</p>
+<p>这种极简依赖策略带来五大核心优势：  </p>
 <ul>
-<li><strong>Faster installation</strong> - No complex dependency tree to resolve</li>
-<li><strong>Fewer conflicts</strong> - Reduced chance of version conflicts with other packages</li>
-<li><strong>Smaller footprint</strong> - Lower disk space usage</li>
-<li><strong>Better security</strong> - Smaller attack surface and dependency-related vulnerabilities</li>
-<li><strong>Easier updates</strong> - Simpler maintenance and fewer breaking changes</li>
+<li><strong>⚡闪电安装</strong> - 无需解析复杂的依赖树</li>
+<li><strong>🧩 零冲突</strong> - 与其他包发生版本冲突的概率极低</li>
+<li><strong>📦 轻量化</strong> - 更低的磁盘空间占用</li>
+<li><strong>🔒 更好的安全</strong> - 更小的攻击面和供应链漏洞</li>
+<li><strong>🔄 方便升级</strong> - 方便维护已经无破坏性更新</li>
 </ul>
-<p>The small number of dependencies also contributes to Pydoll's reliability and performance, as there are fewer external factors that could impact its operation.</p>
-<h2 id="license">License</h2>
-<p>Pydoll is released under the MIT License, which gives you the freedom to use, modify, and distribute the code with minimal restrictions. This permissive license makes Pydoll suitable for both personal and commercial projects.</p>
+<p>更少的依赖项带来了： 更高的运行可靠性以及更强的性能表现。</p>
+<h2 id="_6">许可证</h2>
+<p>Pydoll 遵循 MIT 许可证（完整文本见 LICENSE 文件），主要授权条款包括：  </p>
+<ol>
+<li>权利授予  </li>
+<li>永久、全球范围、免版税的使用权  </li>
+<li>允许修改创作衍生作品  </li>
+<li>
+<p>可再授权给第三方  </p>
+</li>
+<li>
+<p>唯一责任限制  </p>
+</li>
+<li>所有修改件必须保留原版权声明  </li>
+<li>不提供任何明示或默示担保  </li>
+</ol>
 <details class="info">
 <summary>View Full MIT License Text</summary>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>MIT License
@@ -2188,7 +2203,7 @@
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Back to top
+  回到页面顶部
 </button>
         
       </main>
@@ -2219,14 +2234,14 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.expand", "navigation.path", "navigation.top", "toc.follow", "content.code.copy", "content.code.select", "content.tooltips", "search.highlight", "search.suggest"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.expand", "navigation.path", "navigation.top", "toc.follow", "content.code.copy", "content.code.select", "content.tooltips", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../assets/javascripts/bundle.50899def.min.js"></script>
       
-        <script src="scripts/termynal.js"></script>
+        <script src="../scripts/termynal.js"></script>
       
-        <script src="scripts/extra.js"></script>
+        <script src="../scripts/extra.js"></script>
       
         <script src="https://unpkg.com/mermaid@10.0.0/dist/mermaid.min.js"></script>
       

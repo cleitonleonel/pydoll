@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://autoscrape-labs.github.io/pydoll/api/index.html">
+        <link rel="canonical" href="https://autoscrape-labs.github.io/pydoll/deep-dive/cdp.html">
       
       
-        <link rel="prev" href="../deep-dive/network-capabilities.html">
+        <link rel="prev" href="index.html">
       
       
-        <link rel="next" href="browser/chrome.html">
+        <link rel="next" href="connection-layer.html">
       
       
       <link rel="icon" href="../images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Overview - Pydoll - Async Web Automation Library</title>
+        <title>Chrome DevTools Protocol - Pydoll - Async Web Automation Library</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#api-reference" class="md-skip">
+        <a href="#chrome-devtools-protocol-cdp" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              Chrome DevTools Protocol
             
           </span>
         </div>
@@ -163,13 +163,13 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="index.html" hreflang="en" class="md-select__link">
+            <a href="cdp.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../zh/api/index.html" hreflang="zh" class="md-select__link">
+            <a href="../zh/deep-dive/cdp.html" hreflang="zh" class="md-select__link">
               中文
             </a>
           </li>
@@ -285,11 +285,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../deep-dive/index.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="index.html" class="md-tabs__link">
           
   
   
@@ -307,13 +309,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="index.html" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../api/index.html" class="md-tabs__link">
           
   
   
@@ -426,273 +426,6 @@
       
   
   
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../deep-dive/index.html" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    Deep Dive
-    
-  </span>
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Deep Dive
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../deep-dive/cdp.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Chrome DevTools Protocol
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../deep-dive/connection-layer.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    The Connection Layer
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../deep-dive/browser-domain.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    The Browser Domain
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../deep-dive/tab-domain.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    The Tab Domain
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../deep-dive/find-elements-mixin.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    The Find Elements Mixin
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../deep-dive/webelement-domain.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    The WebElement Domain
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../deep-dive/event-system.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    The Event System
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../deep-dive/network-capabilities.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Network Capabilities
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -702,6 +435,10 @@
       
         
           
+        
+      
+        
+      
         
       
         
@@ -732,11 +469,412 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="index.html" class="md-nav__link md-nav__link--active">
+            <a href="index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Deep Dive
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Deep Dive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Chrome DevTools Protocol
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="cdp.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chrome DevTools Protocol
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-cdp" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is CDP?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#websocket-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      WebSocket Communication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-cdp-domains" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key CDP Domains
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#event-driven-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Event-Driven Architecture
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-advantages-of-direct-cdp-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Advantages of Direct CDP Integration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Advantages of Direct CDP Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-elimination-of-protocol-translation-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Elimination of Protocol Translation Layer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-efficient-command-batching" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Efficient Command Batching
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-asynchronous-operation" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Asynchronous Operation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-fine-grained-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Fine-Grained Control
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="connection-layer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Connection Layer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="browser-domain.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Browser Domain
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tab-domain.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Tab Domain
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="find-elements-mixin.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Find Elements Mixin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="webelement-domain.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The WebElement Domain
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="event-system.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Event System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="network-capabilities.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Network Capabilities
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../api/index.html" class="md-nav__link ">
               
   
   
@@ -749,13 +887,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_4" id="__nav_4_label" tabindex="">
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             API Reference
@@ -789,13 +927,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -804,7 +939,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
         
           
-          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
             
   
   
@@ -831,7 +966,7 @@
   
   
     <li class="md-nav__item">
-      <a href="browser/chrome.html" class="md-nav__link">
+      <a href="../api/browser/chrome.html" class="md-nav__link">
         
   
   
@@ -854,7 +989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="browser/edge.html" class="md-nav__link">
+      <a href="../api/browser/edge.html" class="md-nav__link">
         
   
   
@@ -877,7 +1012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="browser/options.html" class="md-nav__link">
+      <a href="../api/browser/options.html" class="md-nav__link">
         
   
   
@@ -900,7 +1035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="browser/tab.html" class="md-nav__link">
+      <a href="../api/browser/tab.html" class="md-nav__link">
         
   
   
@@ -923,7 +1058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="browser/managers.html" class="md-nav__link">
+      <a href="../api/browser/managers.html" class="md-nav__link">
         
   
   
@@ -966,13 +1101,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -981,7 +1113,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_3" >
         
           
-          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
             
   
   
@@ -1008,7 +1140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="elements/web_element.html" class="md-nav__link">
+      <a href="../api/elements/web_element.html" class="md-nav__link">
         
   
   
@@ -1031,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="elements/mixins.html" class="md-nav__link">
+      <a href="../api/elements/mixins.html" class="md-nav__link">
         
   
   
@@ -1074,13 +1206,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1089,7 +1218,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_4" >
         
           
-          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
             
   
   
@@ -1116,7 +1245,7 @@
   
   
     <li class="md-nav__item">
-      <a href="connection/connection.html" class="md-nav__link">
+      <a href="../api/connection/connection.html" class="md-nav__link">
         
   
   
@@ -1139,7 +1268,7 @@
   
   
     <li class="md-nav__item">
-      <a href="connection/managers.html" class="md-nav__link">
+      <a href="../api/connection/managers.html" class="md-nav__link">
         
   
   
@@ -1200,13 +1329,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1216,7 +1342,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="commands/index.html" class="md-nav__link ">
+            <a href="../api/commands/index.html" class="md-nav__link ">
               
   
   
@@ -1229,7 +1355,7 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_4_5" id="__nav_4_5_label" tabindex="">
+              <label class="md-nav__link " for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -1251,7 +1377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/browser.html" class="md-nav__link">
+      <a href="../api/commands/browser.html" class="md-nav__link">
         
   
   
@@ -1274,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/dom.html" class="md-nav__link">
+      <a href="../api/commands/dom.html" class="md-nav__link">
         
   
   
@@ -1297,7 +1423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/input.html" class="md-nav__link">
+      <a href="../api/commands/input.html" class="md-nav__link">
         
   
   
@@ -1320,7 +1446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/network.html" class="md-nav__link">
+      <a href="../api/commands/network.html" class="md-nav__link">
         
   
   
@@ -1343,7 +1469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/page.html" class="md-nav__link">
+      <a href="../api/commands/page.html" class="md-nav__link">
         
   
   
@@ -1366,7 +1492,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/runtime.html" class="md-nav__link">
+      <a href="../api/commands/runtime.html" class="md-nav__link">
         
   
   
@@ -1389,7 +1515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/storage.html" class="md-nav__link">
+      <a href="../api/commands/storage.html" class="md-nav__link">
         
   
   
@@ -1412,7 +1538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/target.html" class="md-nav__link">
+      <a href="../api/commands/target.html" class="md-nav__link">
         
   
   
@@ -1435,7 +1561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/fetch.html" class="md-nav__link">
+      <a href="../api/commands/fetch.html" class="md-nav__link">
         
   
   
@@ -1478,13 +1604,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1493,7 +1616,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_6" >
         
           
-          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
             
   
   
@@ -1520,7 +1643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="protocol/commands.html" class="md-nav__link">
+      <a href="../api/protocol/commands.html" class="md-nav__link">
         
   
   
@@ -1543,7 +1666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="protocol/events.html" class="md-nav__link">
+      <a href="../api/protocol/events.html" class="md-nav__link">
         
   
   
@@ -1588,13 +1711,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1603,7 +1723,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_7" >
         
           
-          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
             
   
   
@@ -1630,7 +1750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="core/constants.html" class="md-nav__link">
+      <a href="../api/core/constants.html" class="md-nav__link">
         
   
   
@@ -1653,7 +1773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="core/exceptions.html" class="md-nav__link">
+      <a href="../api/core/exceptions.html" class="md-nav__link">
         
   
   
@@ -1676,7 +1796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="core/utils.html" class="md-nav__link">
+      <a href="../api/core/utils.html" class="md-nav__link">
         
   
   
@@ -1734,64 +1854,82 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#what-is-cdp" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
+      What is CDP?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Overview">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#websocket-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      WebSocket Communication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-cdp-domains" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key CDP Domains
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#event-driven-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Event-Driven Architecture
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-advantages-of-direct-cdp-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Advantages of Direct CDP Integration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Advantages of Direct CDP Integration">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#browser-module" class="md-nav__link">
+  <a href="#1-elimination-of-protocol-translation-layer" class="md-nav__link">
     <span class="md-ellipsis">
-      Browser Module
+      1. Elimination of Protocol Translation Layer
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#elements-module" class="md-nav__link">
+  <a href="#2-efficient-command-batching" class="md-nav__link">
     <span class="md-ellipsis">
-      Elements Module
+      2. Efficient Command Batching
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#connection-module" class="md-nav__link">
+  <a href="#3-asynchronous-operation" class="md-nav__link">
     <span class="md-ellipsis">
-      Connection Module
+      3. Asynchronous Operation
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#commands-module" class="md-nav__link">
+  <a href="#4-fine-grained-control" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands Module
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#protocol-module" class="md-nav__link">
-    <span class="md-ellipsis">
-      Protocol Module
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#core-module" class="md-nav__link">
-    <span class="md-ellipsis">
-      Core Module
+      4. Fine-Grained Control
     </span>
   </a>
   
@@ -1803,102 +1941,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-navigation" class="md-nav__link">
+  <a href="#conclusion" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Navigation
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Quick Navigation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#most-common-classes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Most Common Classes
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#key-enums-and-constants" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Enums and Constants
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#common-exceptions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Common Exceptions
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#usage-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      Usage Patterns
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Usage Patterns">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#basic-browser-automation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Basic Browser Automation
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#element-finding" class="md-nav__link">
-    <span class="md-ellipsis">
-      Element Finding
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#event-handling" class="md-nav__link">
-    <span class="md-ellipsis">
-      Event Handling
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#type-hints" class="md-nav__link">
-    <span class="md-ellipsis">
-      Type Hints
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#asyncawait-support" class="md-nav__link">
-    <span class="md-ellipsis">
-      Async/Await Support
+      Conclusion
     </span>
   </a>
   
@@ -1923,186 +1968,184 @@
   
 
 
-<h1 id="api-reference">API Reference</h1>
-<p>Welcome to the Pydoll API Reference! This section provides comprehensive documentation for all classes, methods, and functions available in the Pydoll library.</p>
-<h2 id="overview">Overview</h2>
-<p>Pydoll is organized into several key modules, each serving a specific purpose in browser automation:</p>
-<h3 id="browser-module">Browser Module</h3>
-<p>The browser module contains classes for managing browser instances and their lifecycle.</p>
+<h1 id="chrome-devtools-protocol-cdp">Chrome DevTools Protocol (CDP)</h1>
+<p>The Chrome DevTools Protocol (CDP) is the foundation that enables Pydoll to control browsers without traditional webdrivers. Understanding how CDP works provides valuable insight into Pydoll's capabilities and internal architecture.</p>
+<h2 id="what-is-cdp">What is CDP?</h2>
+<p>The Chrome DevTools Protocol is a powerful interface developed by the Chromium team that allows programmatic interaction with Chromium-based browsers. It's the same protocol used by Chrome DevTools when you inspect a webpage, but exposed as a programmable API that can be leveraged by automation tools.</p>
+<p>At its core, CDP provides a comprehensive set of methods and events for interfacing with browser internals. This allows for fine-grained control over every aspect of the browser, from navigating between pages to manipulating the DOM, intercepting network requests, and monitoring performance metrics.</p>
+<div class="admonition info">
+<p class="admonition-title">CDP Evolution</p>
+<p>The Chrome DevTools Protocol has been continuously evolving since its introduction. Google maintains and updates the protocol with each Chrome release, regularly adding new functionality and improving existing features.</p>
+<p>While the protocol was initially designed for Chrome's DevTools, its comprehensive capabilities have made it the foundation for next-generation browser automation tools like Puppeteer, Playwright, and of course, Pydoll.</p>
+</div>
+<h2 id="websocket-communication">WebSocket Communication</h2>
+<p>One of the key architectural decisions in CDP is its use of WebSockets for communication. When a Chromium-based browser is started with the remote debugging flag enabled, it opens a WebSocket server on a specified port:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>chrome --remote-debugging-port=9222
+</span></code></pre></div>
+<p>Pydoll connects to this WebSocket endpoint to establish a bidirectional communication channel with the browser. This connection:</p>
+<ol>
+<li><strong>Remains persistent</strong> throughout the automation session</li>
+<li><strong>Enables real-time events</strong> from the browser to be pushed to the client</li>
+<li><strong>Allows commands</strong> to be sent to the browser</li>
+<li><strong>Supports binary data</strong> for efficient transfer of screenshots, PDFs, and other assets</li>
+</ol>
+<p>The WebSocket protocol is particularly well-suited for browser automation because it provides:</p>
 <ul>
-<li><strong><a href="browser/chrome.html">Chrome</a></strong> - Chrome browser automation</li>
-<li><strong><a href="browser/edge.html">Edge</a></strong> - Microsoft Edge browser automation  </li>
-<li><strong><a href="browser/options.html">Options</a></strong> - Browser configuration options</li>
-<li><strong><a href="browser/tab.html">Tab</a></strong> - Tab management and interaction</li>
-<li><strong><a href="browser/managers.html">Managers</a></strong> - Browser lifecycle managers</li>
+<li><strong>Low latency communication</strong> - Necessary for responsive automation</li>
+<li><strong>Bidirectional messaging</strong> - Essential for event-driven architecture</li>
+<li><strong>Persistent connections</strong> - Eliminating connection setup overhead for each operation</li>
 </ul>
-<h3 id="elements-module">Elements Module</h3>
-<p>The elements module provides classes for interacting with web page elements.</p>
-<ul>
-<li><strong><a href="elements/web_element.html">WebElement</a></strong> - Individual element interaction</li>
-<li><strong><a href="elements/mixins.html">Mixins</a></strong> - Reusable element functionality</li>
-</ul>
-<h3 id="connection-module">Connection Module</h3>
-<p>The connection module handles communication with the browser through the Chrome DevTools Protocol.</p>
-<ul>
-<li><strong><a href="connection/connection.html">Connection Handler</a></strong> - WebSocket connection management</li>
-<li><strong><a href="connection/managers.html">Managers</a></strong> - Connection lifecycle managers</li>
-</ul>
-<h3 id="commands-module">Commands Module</h3>
-<p>The commands module provides low-level Chrome DevTools Protocol command implementations.</p>
-<ul>
-<li><strong><a href="commands/index.html">Commands Overview</a></strong> - CDP command implementations by domain</li>
-</ul>
-<h3 id="protocol-module">Protocol Module</h3>
-<p>The protocol module implements the Chrome DevTools Protocol commands and events.</p>
-<ul>
-<li><strong><a href="protocol/commands.html">Commands</a></strong> - CDP command implementations</li>
-<li><strong><a href="protocol/events.html">Events</a></strong> - CDP event handling</li>
-</ul>
-<h3 id="core-module">Core Module</h3>
-<p>The core module contains fundamental utilities, constants, and exceptions.</p>
-<ul>
-<li><strong><a href="core/constants.html">Constants</a></strong> - Library constants and enums</li>
-<li><strong><a href="core/exceptions.html">Exceptions</a></strong> - Custom exception classes</li>
-<li><strong><a href="core/utils.html">Utils</a></strong> - Utility functions</li>
-</ul>
-<h2 id="quick-navigation">Quick Navigation</h2>
-<h3 id="most-common-classes">Most Common Classes</h3>
+<p>Here's a simplified view of how Pydoll's communication with the browser works:</p>
+<pre class="mermaid"><code>sequenceDiagram
+    participant App as Pydoll Application
+    participant WS as WebSocket Connection
+    participant Browser as Chrome Browser
+
+    App -&gt;&gt; WS: Command: navigate to URL
+    WS -&gt;&gt; Browser: Execute navigation
+
+    Browser --&gt;&gt; WS: Send page load event
+    WS --&gt;&gt; App: Receive page load event</code></pre>
+<div class="admonition info">
+<p class="admonition-title">WebSocket vs HTTP</p>
+<p>Earlier browser automation protocols often relied on HTTP endpoints for communication. CDP's switch to WebSockets represents a significant architectural improvement that enables more responsive automation and real-time event monitoring.</p>
+<p>HTTP-based protocols require continuous polling to detect changes, creating overhead and delays. WebSockets allow the browser to push notifications to your automation script exactly when events occur, with minimal latency.</p>
+</div>
+<h2 id="key-cdp-domains">Key CDP Domains</h2>
+<p>CDP is organized into logical domains, each responsible for a specific aspect of browser functionality. Some of the most important domains include:</p>
 <table>
 <thead>
 <tr>
-<th>Class</th>
-<th>Purpose</th>
-<th>Module</th>
+<th>Domain</th>
+<th>Responsibility</th>
+<th>Example Use Cases</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>Chrome</code></td>
-<td>Chrome browser automation</td>
-<td><code>pydoll.browser.chromium</code></td>
+<td><strong>Browser</strong></td>
+<td>Control of the browser application itself</td>
+<td>Window management, browser context creation</td>
 </tr>
 <tr>
-<td><code>Edge</code></td>
-<td>Edge browser automation</td>
-<td><code>pydoll.browser.chromium</code></td>
+<td><strong>Page</strong></td>
+<td>Interaction with page lifecycle</td>
+<td>Navigation, JavaScript execution, frame management</td>
 </tr>
 <tr>
-<td><code>Tab</code></td>
-<td>Tab interaction and control</td>
-<td><code>pydoll.browser.tab</code></td>
+<td><strong>DOM</strong></td>
+<td>Access to page structure</td>
+<td>Query selectors, attribute modification, event listeners</td>
 </tr>
 <tr>
-<td><code>WebElement</code></td>
-<td>Element interaction</td>
-<td><code>pydoll.elements.web_element</code></td>
+<td><strong>Network</strong></td>
+<td>Network traffic monitoring and control</td>
+<td>Request interception, response examination, caching</td>
 </tr>
 <tr>
-<td><code>ChromiumOptions</code></td>
-<td>Browser configuration</td>
-<td><code>pydoll.browser.options</code></td>
+<td><strong>Runtime</strong></td>
+<td>JavaScript execution environment</td>
+<td>Evaluate expressions, call functions, handle exceptions</td>
+</tr>
+<tr>
+<td><strong>Input</strong></td>
+<td>Simulating user interactions</td>
+<td>Mouse movements, keyboard input, touch events</td>
+</tr>
+<tr>
+<td><strong>Target</strong></td>
+<td>Managing browser contexts and targets</td>
+<td>Creating tabs, accessing iframes, handling popups</td>
+</tr>
+<tr>
+<td><strong>Fetch</strong></td>
+<td>Low-level network interception</td>
+<td>Modifying requests, simulating responses, authentication</td>
 </tr>
 </tbody>
 </table>
-<h3 id="key-enums-and-constants">Key Enums and Constants</h3>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Purpose</th>
-<th>Module</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>By</code></td>
-<td>Element selector strategies</td>
-<td><code>pydoll.constants</code></td>
-</tr>
-<tr>
-<td><code>Key</code></td>
-<td>Keyboard key constants</td>
-<td><code>pydoll.constants</code></td>
-</tr>
-<tr>
-<td><code>PermissionType</code></td>
-<td>Browser permission types</td>
-<td><code>pydoll.constants</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="common-exceptions">Common Exceptions</h3>
-<table>
-<thead>
-<tr>
-<th>Exception</th>
-<th>When Raised</th>
-<th>Module</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>ElementNotFound</code></td>
-<td>Element not found in DOM</td>
-<td><code>pydoll.exceptions</code></td>
-</tr>
-<tr>
-<td><code>WaitElementTimeout</code></td>
-<td>Element wait timeout</td>
-<td><code>pydoll.exceptions</code></td>
-</tr>
-<tr>
-<td><code>BrowserNotStarted</code></td>
-<td>Browser not started</td>
-<td><code>pydoll.exceptions</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="usage-patterns">Usage Patterns</h2>
-<h3 id="basic-browser-automation">Basic Browser Automation</h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pydoll.browser.chromium</span><span class="w"> </span><span class="kn">import</span> <span class="n">Chrome</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">async</span> <span class="k">with</span> <span class="n">Chrome</span><span class="p">()</span> <span class="k">as</span> <span class="n">browser</span><span class="p">:</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">tab</span> <span class="o">=</span> <span class="k">await</span> <span class="n">browser</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">go_to</span><span class="p">(</span><span class="s2">&quot;https://example.com&quot;</span><span class="p">)</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">&quot;my-element&quot;</span><span class="p">)</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="k">await</span> <span class="n">element</span><span class="o">.</span><span class="n">click</span><span class="p">()</span>
+<p>Pydoll maps these CDP domains to a more intuitive API structure while preserving the full capabilities of the underlying protocol.</p>
+<h2 id="event-driven-architecture">Event-Driven Architecture</h2>
+<p>One of CDP's most powerful features is its event system. The protocol allows clients to subscribe to various events that the browser emits during normal operation. These events cover virtually every aspect of browser behavior:</p>
+<ul>
+<li><strong>Lifecycle events</strong>: Page loads, frame navigation, target creation</li>
+<li><strong>DOM events</strong>: Element changes, attribute modifications</li>
+<li><strong>Network events</strong>: Request/response cycles, WebSocket messages</li>
+<li><strong>Execution events</strong>: JavaScript exceptions, console messages</li>
+<li><strong>Performance events</strong>: Metrics for rendering, scripting, and more</li>
+</ul>
+<p>When you enable event monitoring in Pydoll (e.g., with <code>page.enable_network_events()</code>), the library sets up the necessary subscriptions with the browser and provides hooks for your code to react to these events.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pydoll.events.network</span><span class="w"> </span><span class="kn">import</span> <span class="n">NetworkEvents</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">functools</span><span class="w"> </span><span class="kn">import</span> <span class="n">partial</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">on_request</span><span class="p">(</span><span class="n">page</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    <span class="n">url</span> <span class="o">=</span> <span class="n">event</span><span class="p">[</span><span class="s1">&#39;params&#39;</span><span class="p">][</span><span class="s1">&#39;request&#39;</span><span class="p">][</span><span class="s1">&#39;url&#39;</span><span class="p">]</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Request to: </span><span class="si">{</span><span class="n">url</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="c1"># Subscribe to network request events</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="k">await</span> <span class="n">page</span><span class="o">.</span><span class="n">enable_network_events</span><span class="p">()</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="k">await</span> <span class="n">page</span><span class="o">.</span><span class="n">on</span><span class="p">(</span><span class="n">NetworkEvents</span><span class="o">.</span><span class="n">REQUEST_WILL_BE_SENT</span><span class="p">,</span> <span class="n">partial</span><span class="p">(</span><span class="n">on_request</span><span class="p">,</span> <span class="n">page</span><span class="p">))</span>
 </span></code></pre></div>
-<h3 id="element-finding">Element Finding</h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># Using the modern find() method</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">&quot;username&quot;</span><span class="p">)</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">tag_name</span><span class="o">=</span><span class="s2">&quot;button&quot;</span><span class="p">,</span> <span class="n">class_name</span><span class="o">=</span><span class="s2">&quot;submit&quot;</span><span class="p">)</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c1"># Using CSS selectors or XPath</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s2">&quot;#username&quot;</span><span class="p">)</span>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s2">&quot;//button[@class=&#39;submit&#39;]&quot;</span><span class="p">)</span>
-</span></code></pre></div>
-<h3 id="event-handling">Event Handling</h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">enable_page_events</span><span class="p">()</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">on</span><span class="p">(</span><span class="s1">&#39;Page.loadEventFired&#39;</span><span class="p">,</span> <span class="n">handle_page_load</span><span class="p">)</span>
-</span></code></pre></div>
-<h2 id="type-hints">Type Hints</h2>
-<p>Pydoll is fully typed and provides comprehensive type hints for better IDE support and code safety. All public APIs include proper type annotations.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">List</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pydoll.elements.web_element</span><span class="w"> </span><span class="kn">import</span> <span class="n">WebElement</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1"># Methods return properly typed objects</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">element</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">WebElement</span><span class="p">]</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">&quot;test&quot;</span><span class="p">,</span> <span class="n">raise_exc</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="n">elements</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">WebElement</span><span class="p">]</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">class_name</span><span class="o">=</span><span class="s2">&quot;item&quot;</span><span class="p">,</span> <span class="n">find_all</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</span></code></pre></div>
-<h2 id="asyncawait-support">Async/Await Support</h2>
-<p>All Pydoll operations are asynchronous and must be used with <code>async</code>/<code>await</code>:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">asyncio</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    <span class="c1"># All Pydoll operations are async</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    <span class="k">async</span> <span class="k">with</span> <span class="n">Chrome</span><span class="p">()</span> <span class="k">as</span> <span class="n">browser</span><span class="p">:</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>        <span class="n">tab</span> <span class="o">=</span> <span class="k">await</span> <span class="n">browser</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>        <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">go_to</span><span class="p">(</span><span class="s2">&quot;https://example.com&quot;</span><span class="p">)</span>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="n">asyncio</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">main</span><span class="p">())</span>
-</span></code></pre></div>
-<p>Browse the sections below to explore the complete API documentation for each module. </p>
+<p>This event-driven approach allows automation scripts to react immediately to browser state changes without relying on inefficient polling or arbitrary delays.</p>
+<h2 id="performance-advantages-of-direct-cdp-integration">Performance Advantages of Direct CDP Integration</h2>
+<p>Using CDP directly, as Pydoll does, offers several performance advantages over traditional webdriver-based automation:</p>
+<h3 id="1-elimination-of-protocol-translation-layer">1. Elimination of Protocol Translation Layer</h3>
+<p>Traditional webdriver-based tools like Selenium use a multi-layered approach:</p>
+<pre class="mermaid"><code>graph LR
+    AS[Automation Script] --&gt; WC[WebDriver Client]
+    WC --&gt; WS[WebDriver Server]
+    WS --&gt; B[Browser]</code></pre>
+<p>Each layer adds overhead, especially the WebDriver server, which acts as a translation layer between the WebDriver protocol and the browser's native APIs.</p>
+<p>Pydoll's approach streamlines this to:</p>
+<pre class="mermaid"><code>graph LR
+    AS[Automation Script] --&gt; P[Pydoll]
+    P --&gt; B[Browser via CDP]</code></pre>
+<p>This direct communication eliminates the computational and network overhead of the intermediate server, resulting in faster operations.</p>
+<h3 id="2-efficient-command-batching">2. Efficient Command Batching</h3>
+<p>CDP allows for the batching of multiple commands in a single message, reducing the number of round trips required for complex operations. This is particularly valuable for operations that require several steps, such as finding an element and then interacting with it.</p>
+<h3 id="3-asynchronous-operation">3. Asynchronous Operation</h3>
+<p>CDP's WebSocket-based, event-driven architecture aligns perfectly with Python's asyncio framework, enabling true asynchronous operation. This allows Pydoll to:</p>
+<ul>
+<li>Execute multiple operations concurrently</li>
+<li>Process events as they occur</li>
+<li>Avoid blocking the main thread during I/O operations</li>
+</ul>
+<pre class="mermaid"><code>graph TD
+    subgraph "Pydoll Async Architecture"
+        EL[Event Loop]
+
+        subgraph "Concurrent Tasks"
+            T1[Task 1: Navigate]
+            T2[Task 2: Wait for Element]
+            T3[Task 3: Handle Network Events]
+        end
+
+        EL --&gt; T1
+        EL --&gt; T2
+        EL --&gt; T3
+
+        T1 --&gt; WS[WebSocket Connection]
+        T2 --&gt; WS
+        T3 --&gt; WS
+
+        WS --&gt; B[Browser]
+    end</code></pre>
+<div class="admonition info">
+<p class="admonition-title">Async Performance Gains</p>
+<p>The combination of asyncio and CDP creates a multiplicative effect on performance. In benchmark tests, Pydoll's asynchronous approach can process multiple pages in parallel with near-linear scaling, while traditional synchronous tools see diminishing returns as concurrency increases.</p>
+<p>For example, scraping 10 pages that each take 2 seconds to load might take over 20 seconds with a synchronous tool, but just over 2 seconds with Pydoll's async architecture (plus some minimal overhead).</p>
+</div>
+<h3 id="4-fine-grained-control">4. Fine-Grained Control</h3>
+<p>CDP provides more granular control over browser behavior than the WebDriver protocol. This allows Pydoll to implement optimized strategies for common operations:</p>
+<ul>
+<li>More precise waiting conditions (vs. arbitrary timeouts)</li>
+<li>Direct access to browser caches and storage</li>
+<li>Targeted JavaScript execution in specific contexts</li>
+<li>Detailed network control for request optimization</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>The Chrome DevTools Protocol forms the foundation of Pydoll's zero-webdriver approach to browser automation. By leveraging CDP's WebSocket communication, comprehensive domain coverage, event-driven architecture, and direct browser integration, Pydoll achieves superior performance and reliability compared to traditional automation tools.</p>
+<p>In the following sections, we'll dive deeper into how Pydoll implements specific CDP domains and transforms the low-level protocol into an intuitive, developer-friendly API. </p>
 
 
 

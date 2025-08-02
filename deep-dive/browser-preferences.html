@@ -8,13 +8,9 @@
       
       
       
-        <link rel="canonical" href="https://autoscrape-labs.github.io/pydoll/api/index.html">
+        <link rel="canonical" href="https://autoscrape-labs.github.io/pydoll/deep-dive/browser-preferences.html">
       
       
-        <link rel="prev" href="../deep-dive/network-capabilities.html">
-      
-      
-        <link rel="next" href="browser/chrome.html">
       
       
       <link rel="icon" href="../images/favicon.png">
@@ -22,7 +18,7 @@
     
     
       
-        <title>Overview - Pydoll - Async Web Automation Library</title>
+        <title>Deep Dive: Custom Browser Preferences in Pydoll - Pydoll - Async Web Automation Library</title>
       
     
     
@@ -80,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#api-reference" class="md-skip">
+        <a href="#deep-dive-custom-browser-preferences-in-pydoll" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              Deep Dive: Custom Browser Preferences in Pydoll
             
           </span>
         </div>
@@ -163,13 +159,13 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="index.html" hreflang="en" class="md-select__link">
+            <a href="browser-preferences.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../zh/api/index.html" hreflang="zh" class="md-select__link">
+            <a href="../zh/deep-dive/browser-preferences.html" hreflang="zh" class="md-select__link">
               中文
             </a>
           </li>
@@ -289,7 +285,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../deep-dive/index.html" class="md-tabs__link">
+        <a href="index.html" class="md-tabs__link">
           
   
   
@@ -307,13 +303,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="index.html" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../api/index.html" class="md-tabs__link">
           
   
   
@@ -470,7 +464,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../deep-dive/index.html" class="md-nav__link ">
+            <a href="index.html" class="md-nav__link ">
               
   
   
@@ -505,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deep-dive/cdp.html" class="md-nav__link">
+      <a href="cdp.html" class="md-nav__link">
         
   
   
@@ -528,7 +522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deep-dive/connection-layer.html" class="md-nav__link">
+      <a href="connection-layer.html" class="md-nav__link">
         
   
   
@@ -551,7 +545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deep-dive/browser-domain.html" class="md-nav__link">
+      <a href="browser-domain.html" class="md-nav__link">
         
   
   
@@ -574,7 +568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deep-dive/tab-domain.html" class="md-nav__link">
+      <a href="tab-domain.html" class="md-nav__link">
         
   
   
@@ -597,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deep-dive/find-elements-mixin.html" class="md-nav__link">
+      <a href="find-elements-mixin.html" class="md-nav__link">
         
   
   
@@ -620,7 +614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deep-dive/webelement-domain.html" class="md-nav__link">
+      <a href="webelement-domain.html" class="md-nav__link">
         
   
   
@@ -643,7 +637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deep-dive/event-system.html" class="md-nav__link">
+      <a href="event-system.html" class="md-nav__link">
         
   
   
@@ -666,7 +660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deep-dive/network-capabilities.html" class="md-nav__link">
+      <a href="network-capabilities.html" class="md-nav__link">
         
   
   
@@ -693,8 +687,6 @@
       
   
   
-    
-  
   
   
     
@@ -720,23 +712,22 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="index.html" class="md-nav__link md-nav__link--active">
+            <a href="../api/index.html" class="md-nav__link ">
               
   
   
@@ -749,13 +740,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_4" id="__nav_4_label" tabindex="">
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             API Reference
@@ -789,13 +780,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -804,7 +792,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
         
           
-          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
             
   
   
@@ -831,7 +819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="browser/chrome.html" class="md-nav__link">
+      <a href="../api/browser/chrome.html" class="md-nav__link">
         
   
   
@@ -854,7 +842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="browser/edge.html" class="md-nav__link">
+      <a href="../api/browser/edge.html" class="md-nav__link">
         
   
   
@@ -877,7 +865,7 @@
   
   
     <li class="md-nav__item">
-      <a href="browser/options.html" class="md-nav__link">
+      <a href="../api/browser/options.html" class="md-nav__link">
         
   
   
@@ -900,7 +888,7 @@
   
   
     <li class="md-nav__item">
-      <a href="browser/tab.html" class="md-nav__link">
+      <a href="../api/browser/tab.html" class="md-nav__link">
         
   
   
@@ -923,7 +911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="browser/managers.html" class="md-nav__link">
+      <a href="../api/browser/managers.html" class="md-nav__link">
         
   
   
@@ -966,13 +954,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -981,7 +966,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_3" >
         
           
-          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
             
   
   
@@ -1008,7 +993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="elements/web_element.html" class="md-nav__link">
+      <a href="../api/elements/web_element.html" class="md-nav__link">
         
   
   
@@ -1031,7 +1016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="elements/mixins.html" class="md-nav__link">
+      <a href="../api/elements/mixins.html" class="md-nav__link">
         
   
   
@@ -1074,13 +1059,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1089,7 +1071,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_4" >
         
           
-          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
             
   
   
@@ -1116,7 +1098,7 @@
   
   
     <li class="md-nav__item">
-      <a href="connection/connection.html" class="md-nav__link">
+      <a href="../api/connection/connection.html" class="md-nav__link">
         
   
   
@@ -1139,7 +1121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="connection/managers.html" class="md-nav__link">
+      <a href="../api/connection/managers.html" class="md-nav__link">
         
   
   
@@ -1200,13 +1182,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1216,7 +1195,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="commands/index.html" class="md-nav__link ">
+            <a href="../api/commands/index.html" class="md-nav__link ">
               
   
   
@@ -1229,7 +1208,7 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_4_5" id="__nav_4_5_label" tabindex="">
+              <label class="md-nav__link " for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -1251,7 +1230,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/browser.html" class="md-nav__link">
+      <a href="../api/commands/browser.html" class="md-nav__link">
         
   
   
@@ -1274,7 +1253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/dom.html" class="md-nav__link">
+      <a href="../api/commands/dom.html" class="md-nav__link">
         
   
   
@@ -1297,7 +1276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/input.html" class="md-nav__link">
+      <a href="../api/commands/input.html" class="md-nav__link">
         
   
   
@@ -1320,7 +1299,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/network.html" class="md-nav__link">
+      <a href="../api/commands/network.html" class="md-nav__link">
         
   
   
@@ -1343,7 +1322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/page.html" class="md-nav__link">
+      <a href="../api/commands/page.html" class="md-nav__link">
         
   
   
@@ -1366,7 +1345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/runtime.html" class="md-nav__link">
+      <a href="../api/commands/runtime.html" class="md-nav__link">
         
   
   
@@ -1389,7 +1368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/storage.html" class="md-nav__link">
+      <a href="../api/commands/storage.html" class="md-nav__link">
         
   
   
@@ -1412,7 +1391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/target.html" class="md-nav__link">
+      <a href="../api/commands/target.html" class="md-nav__link">
         
   
   
@@ -1435,7 +1414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="commands/fetch.html" class="md-nav__link">
+      <a href="../api/commands/fetch.html" class="md-nav__link">
         
   
   
@@ -1478,13 +1457,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1493,7 +1469,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_6" >
         
           
-          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
             
   
   
@@ -1520,7 +1496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="protocol/commands.html" class="md-nav__link">
+      <a href="../api/protocol/commands.html" class="md-nav__link">
         
   
   
@@ -1543,7 +1519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="protocol/events.html" class="md-nav__link">
+      <a href="../api/protocol/events.html" class="md-nav__link">
         
   
   
@@ -1588,13 +1564,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1603,7 +1576,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_7" >
         
           
-          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
             
   
   
@@ -1630,7 +1603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="core/constants.html" class="md-nav__link">
+      <a href="../api/core/constants.html" class="md-nav__link">
         
   
   
@@ -1653,7 +1626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="core/exceptions.html" class="md-nav__link">
+      <a href="../api/core/exceptions.html" class="md-nav__link">
         
   
   
@@ -1676,7 +1649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="core/utils.html" class="md-nav__link">
+      <a href="../api/core/utils.html" class="md-nav__link">
         
   
   
@@ -1740,165 +1713,48 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Overview">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#browser-module" class="md-nav__link">
-    <span class="md-ellipsis">
-      Browser Module
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#elements-module" class="md-nav__link">
-    <span class="md-ellipsis">
-      Elements Module
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#connection-module" class="md-nav__link">
-    <span class="md-ellipsis">
-      Connection Module
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#commands-module" class="md-nav__link">
-    <span class="md-ellipsis">
-      Commands Module
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#protocol-module" class="md-nav__link">
-    <span class="md-ellipsis">
-      Protocol Module
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#core-module" class="md-nav__link">
-    <span class="md-ellipsis">
-      Core Module
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-navigation" class="md-nav__link">
+  <a href="#how-it-works" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Navigation
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Quick Navigation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#most-common-classes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Most Common Classes
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#key-enums-and-constants" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Enums and Constants
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#common-exceptions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Common Exceptions
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#usage-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      Usage Patterns
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Usage Patterns">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#basic-browser-automation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Basic Browser Automation
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#element-finding" class="md-nav__link">
-    <span class="md-ellipsis">
-      Element Finding
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#event-handling" class="md-nav__link">
-    <span class="md-ellipsis">
-      Event Handling
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#type-hints" class="md-nav__link">
-    <span class="md-ellipsis">
-      Type Hints
+      How It Works
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#asyncawait-support" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Async/Await Support
+      Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Usage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
     </span>
   </a>
   
@@ -1923,186 +1779,43 @@
   
 
 
-<h1 id="api-reference">API Reference</h1>
-<p>Welcome to the Pydoll API Reference! This section provides comprehensive documentation for all classes, methods, and functions available in the Pydoll library.</p>
+<h1 id="deep-dive-custom-browser-preferences-in-pydoll">Deep Dive: Custom Browser Preferences in Pydoll</h1>
 <h2 id="overview">Overview</h2>
-<p>Pydoll is organized into several key modules, each serving a specific purpose in browser automation:</p>
-<h3 id="browser-module">Browser Module</h3>
-<p>The browser module contains classes for managing browser instances and their lifecycle.</p>
+<p>The <code>browser_preferences</code> feature (PR #204) enables direct, fine-grained control over Chromium browser settings via the <code>ChromiumOptions</code> API. This is essential for advanced automation, testing, and scraping scenarios where default browser behavior must be customized.</p>
+<h2 id="how-it-works">How It Works</h2>
 <ul>
-<li><strong><a href="browser/chrome.html">Chrome</a></strong> - Chrome browser automation</li>
-<li><strong><a href="browser/edge.html">Edge</a></strong> - Microsoft Edge browser automation  </li>
-<li><strong><a href="browser/options.html">Options</a></strong> - Browser configuration options</li>
-<li><strong><a href="browser/tab.html">Tab</a></strong> - Tab management and interaction</li>
-<li><strong><a href="browser/managers.html">Managers</a></strong> - Browser lifecycle managers</li>
+<li><code>ChromiumOptions.browser_preferences</code> is a dictionary that maps directly to Chromium's internal preferences structure.</li>
+<li>Preferences are merged: setting new keys updates only those keys, preserving others.</li>
+<li>Helper methods (<code>set_default_download_directory</code>, <code>set_accept_languages</code>, etc.) are provided for common scenarios.</li>
+<li>Preferences are applied before browser launch, ensuring all settings take effect from the start of the session.</li>
+<li>Validation ensures only dictionaries are accepted; invalid structures raise clear errors.</li>
 </ul>
-<h3 id="elements-module">Elements Module</h3>
-<p>The elements module provides classes for interacting with web page elements.</p>
-<ul>
-<li><strong><a href="elements/web_element.html">WebElement</a></strong> - Individual element interaction</li>
-<li><strong><a href="elements/mixins.html">Mixins</a></strong> - Reusable element functionality</li>
-</ul>
-<h3 id="connection-module">Connection Module</h3>
-<p>The connection module handles communication with the browser through the Chrome DevTools Protocol.</p>
-<ul>
-<li><strong><a href="connection/connection.html">Connection Handler</a></strong> - WebSocket connection management</li>
-<li><strong><a href="connection/managers.html">Managers</a></strong> - Connection lifecycle managers</li>
-</ul>
-<h3 id="commands-module">Commands Module</h3>
-<p>The commands module provides low-level Chrome DevTools Protocol command implementations.</p>
-<ul>
-<li><strong><a href="commands/index.html">Commands Overview</a></strong> - CDP command implementations by domain</li>
-</ul>
-<h3 id="protocol-module">Protocol Module</h3>
-<p>The protocol module implements the Chrome DevTools Protocol commands and events.</p>
-<ul>
-<li><strong><a href="protocol/commands.html">Commands</a></strong> - CDP command implementations</li>
-<li><strong><a href="protocol/events.html">Events</a></strong> - CDP event handling</li>
-</ul>
-<h3 id="core-module">Core Module</h3>
-<p>The core module contains fundamental utilities, constants, and exceptions.</p>
-<ul>
-<li><strong><a href="core/constants.html">Constants</a></strong> - Library constants and enums</li>
-<li><strong><a href="core/exceptions.html">Exceptions</a></strong> - Custom exception classes</li>
-<li><strong><a href="core/utils.html">Utils</a></strong> - Utility functions</li>
-</ul>
-<h2 id="quick-navigation">Quick Navigation</h2>
-<h3 id="most-common-classes">Most Common Classes</h3>
-<table>
-<thead>
-<tr>
-<th>Class</th>
-<th>Purpose</th>
-<th>Module</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Chrome</code></td>
-<td>Chrome browser automation</td>
-<td><code>pydoll.browser.chromium</code></td>
-</tr>
-<tr>
-<td><code>Edge</code></td>
-<td>Edge browser automation</td>
-<td><code>pydoll.browser.chromium</code></td>
-</tr>
-<tr>
-<td><code>Tab</code></td>
-<td>Tab interaction and control</td>
-<td><code>pydoll.browser.tab</code></td>
-</tr>
-<tr>
-<td><code>WebElement</code></td>
-<td>Element interaction</td>
-<td><code>pydoll.elements.web_element</code></td>
-</tr>
-<tr>
-<td><code>ChromiumOptions</code></td>
-<td>Browser configuration</td>
-<td><code>pydoll.browser.options</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="key-enums-and-constants">Key Enums and Constants</h3>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Purpose</th>
-<th>Module</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>By</code></td>
-<td>Element selector strategies</td>
-<td><code>pydoll.constants</code></td>
-</tr>
-<tr>
-<td><code>Key</code></td>
-<td>Keyboard key constants</td>
-<td><code>pydoll.constants</code></td>
-</tr>
-<tr>
-<td><code>PermissionType</code></td>
-<td>Browser permission types</td>
-<td><code>pydoll.constants</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="common-exceptions">Common Exceptions</h3>
-<table>
-<thead>
-<tr>
-<th>Exception</th>
-<th>When Raised</th>
-<th>Module</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>ElementNotFound</code></td>
-<td>Element not found in DOM</td>
-<td><code>pydoll.exceptions</code></td>
-</tr>
-<tr>
-<td><code>WaitElementTimeout</code></td>
-<td>Element wait timeout</td>
-<td><code>pydoll.exceptions</code></td>
-</tr>
-<tr>
-<td><code>BrowserNotStarted</code></td>
-<td>Browser not started</td>
-<td><code>pydoll.exceptions</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="usage-patterns">Usage Patterns</h2>
-<h3 id="basic-browser-automation">Basic Browser Automation</h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pydoll.browser.chromium</span><span class="w"> </span><span class="kn">import</span> <span class="n">Chrome</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">async</span> <span class="k">with</span> <span class="n">Chrome</span><span class="p">()</span> <span class="k">as</span> <span class="n">browser</span><span class="p">:</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">tab</span> <span class="o">=</span> <span class="k">await</span> <span class="n">browser</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">go_to</span><span class="p">(</span><span class="s2">&quot;https://example.com&quot;</span><span class="p">)</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">&quot;my-element&quot;</span><span class="p">)</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="k">await</span> <span class="n">element</span><span class="o">.</span><span class="n">click</span><span class="p">()</span>
+<h2 id="example">Example</h2>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">options</span> <span class="o">=</span> <span class="n">ChromiumOptions</span><span class="p">()</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">options</span><span class="o">.</span><span class="n">browser_preferences</span> <span class="o">=</span> <span class="p">{</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="s1">&#39;download&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;default_directory&#39;</span><span class="p">:</span> <span class="s1">&#39;/tmp&#39;</span><span class="p">,</span> <span class="s1">&#39;prompt_for_download&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">},</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="s1">&#39;intl&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;accept_languages&#39;</span><span class="p">:</span> <span class="s1">&#39;en-US,en&#39;</span><span class="p">},</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="s1">&#39;profile&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;default_content_setting_values&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;notifications&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}}</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">}</span>
 </span></code></pre></div>
-<h3 id="element-finding">Element Finding</h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># Using the modern find() method</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">&quot;username&quot;</span><span class="p">)</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">tag_name</span><span class="o">=</span><span class="s2">&quot;button&quot;</span><span class="p">,</span> <span class="n">class_name</span><span class="o">=</span><span class="s2">&quot;submit&quot;</span><span class="p">)</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c1"># Using CSS selectors or XPath</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s2">&quot;#username&quot;</span><span class="p">)</span>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s2">&quot;//button[@class=&#39;submit&#39;]&quot;</span><span class="p">)</span>
-</span></code></pre></div>
-<h3 id="event-handling">Event Handling</h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">enable_page_events</span><span class="p">()</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">on</span><span class="p">(</span><span class="s1">&#39;Page.loadEventFired&#39;</span><span class="p">,</span> <span class="n">handle_page_load</span><span class="p">)</span>
-</span></code></pre></div>
-<h2 id="type-hints">Type Hints</h2>
-<p>Pydoll is fully typed and provides comprehensive type hints for better IDE support and code safety. All public APIs include proper type annotations.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">List</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pydoll.elements.web_element</span><span class="w"> </span><span class="kn">import</span> <span class="n">WebElement</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1"># Methods return properly typed objects</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">element</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">WebElement</span><span class="p">]</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">&quot;test&quot;</span><span class="p">,</span> <span class="n">raise_exc</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="n">elements</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">WebElement</span><span class="p">]</span> <span class="o">=</span> <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">class_name</span><span class="o">=</span><span class="s2">&quot;item&quot;</span><span class="p">,</span> <span class="n">find_all</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</span></code></pre></div>
-<h2 id="asyncawait-support">Async/Await Support</h2>
-<p>All Pydoll operations are asynchronous and must be used with <code>async</code>/<code>await</code>:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">asyncio</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    <span class="c1"># All Pydoll operations are async</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    <span class="k">async</span> <span class="k">with</span> <span class="n">Chrome</span><span class="p">()</span> <span class="k">as</span> <span class="n">browser</span><span class="p">:</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>        <span class="n">tab</span> <span class="o">=</span> <span class="k">await</span> <span class="n">browser</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>        <span class="k">await</span> <span class="n">tab</span><span class="o">.</span><span class="n">go_to</span><span class="p">(</span><span class="s2">&quot;https://example.com&quot;</span><span class="p">)</span>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="n">asyncio</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">main</span><span class="p">())</span>
-</span></code></pre></div>
-<p>Browse the sections below to explore the complete API documentation for each module. </p>
+<h2 id="advanced-usage">Advanced Usage</h2>
+<ul>
+<li><strong>Merging:</strong> Multiple assignments merge keys, so you can incrementally build your preferences.</li>
+<li><strong>Validation:</strong> If you pass a non-dict or use the reserved 'prefs' key, an error is raised.</li>
+<li><strong>Internals:</strong> Preferences are set via a recursive setter that creates nested dictionaries as needed.</li>
+<li><strong>Integration:</strong> Used by the browser process manager to initialize the user data directory with your custom settings.</li>
+</ul>
+<h2 id="best-practices">Best Practices</h2>
+<ul>
+<li>Use helper methods for common patterns; set <code>browser_preferences</code> directly for advanced needs.</li>
+<li>Check Chromium documentation for available preferences: https://chromium.googlesource.com/chromium/src/+/4aaa9f29d8fe5eac55b8632fa8fcb05a68d9005b/chrome/common/pref_names.cc</li>
+<li>Avoid setting experimental or undocumented preferences unless you know their effects.</li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li>See <code>pydoll/browser/options.py</code> for implementation details.</li>
+<li>See tests in <code>tests/test_browser/test_browser_chrome.py</code> for usage examples.</li>
+</ul>
 
 
 
